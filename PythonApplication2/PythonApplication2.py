@@ -5,7 +5,7 @@ MAX_STRING = 2*HALF_STRING
 MAX_STEP = 50
 MAX_POP = 500
 class Individual:
-    def __init__(self, chrom[MAX_STRING], fitness):
+    def __init__(self, chrom, fitness):
         self.chrom[MAX_STRING] = chrom[MAX_STRING]
         self.fitness = fitness
     def getChrom(self):
